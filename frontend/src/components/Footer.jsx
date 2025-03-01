@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <ul className="menu menu-horizontal p-0 space-x-6">
+                <ul className="p-0 space-x-6 menu menu-horizontal">
                     <li><a className="hover:text-gray-400">Privacy Policy</a></li>
                     <li><a className="hover:text-gray-400">Terms of Service</a></li>
                     <li><a className="hover:text-gray-400">Support</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="mt-6 text-center">
-                <p className="text-sm">Created by Chirag © {new Date().getFullYear()}</p>
+                <p className="text-sm">Created by sanjay © {new Date().getFullYear()}</p>
             </div>
         </footer>
     );
